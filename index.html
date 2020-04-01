@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/36bc4c83be.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -21,64 +22,73 @@
         <span class="status-bar__battery-level">100%</span>
         <i class="fas fa-battery-full"></i>
       </div>
-      <header class="header">
-        <div class="header__header-colomn">
-          <h1 class="header__title">Chats</h1>
-        </div>
-        <div class="header__header-colomn">
-          <span class="header__icon">
-            <i class="fas fa-search"></i>
-          </span>
-          <span class="header__icon">
-            <i class="fas fa-comment-medical"></i>
-          </span>
-          <span class="header__icon">
-            <i class="fas fa-cog"></i>
-          </span>
-        </div>
-      </header>
-      <main class="chats">
-        <ul class="chats__list">
-          <li class="chats__chat chat">
-            <a href="chat.html">
-              <div class="chat__colomn">
-                <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-                <div class="chat__contant">
-                  <span class="chat__username">>Mr.GreenTea</span>
-                  <span class="chat__preview">Going home!</span>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comment-medical"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chats__chat friend frined--lg">
+              <div class="friend__column">
+                <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Mr.GreenTea
+                  </span>
+                  <span class="friend__bottom-text">
+                    Going home!
+                  </span>
                 </div>
               </div>
-              <div class="chat__colomn">
-                <span class="chat__timestamp">Yesterday</span>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  March 8
+                </span>
               </div>
-            </a>
-          </li>
-        </ul>
-      </main>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list">
-            <a href="/friends.html" class="nav__list-link">
-              <i class="fas fa-user"></i>
-            </a>
-          </li>
-          <li class="nav__list">
-            <a href="/index.html" class="nav__list-link">
-              <i class="fas fa-comments"></i>
-            </a>
-          </li>
-          <li class="nav__list">
-            <a href="/find.html" class="nav__list-link">
-              <i class="fas fa-search"></i>
-            </a>
-          </li>
-          <li class="nav__list">
-            <a href="/more.html" class="nav__list-link">
-              <i class="fas fa-ellipsis-h"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list">
+          <a href="/friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comments"></i>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="/more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
